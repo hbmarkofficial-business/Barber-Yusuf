@@ -55,7 +55,7 @@ export const ContactSection = () => {
                 <div>
                   <h4 className="font-semibold text-foreground mb-1">Adresse</h4>
                   <p className="text-muted-foreground">
-                    Färberstraße 54, 90402 Nürnberg
+                    Dorstener Str. 11a, 44787 Bochum
                   </p>
                 </div>
               </div>
@@ -68,10 +68,10 @@ export const ContactSection = () => {
                 <div>
                   <h4 className="font-semibold text-foreground mb-1">Telefon</h4>
                   <a
-                    href="tel:015118311067"
+                    href="tel:015778423420"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
-                    015118311067
+                    015778423420
                   </a>
                 </div>
               </div>
@@ -84,9 +84,8 @@ export const ContactSection = () => {
                 <div>
                   <h4 className="font-semibold text-foreground mb-1">Öffnungszeiten</h4>
                   <p className="text-muted-foreground">
-                    Mo. – Fr. 10:00–20:00 Uhr
-                    <br />
-                    Sa. 10:00–19:00 Uhr
+                    Mo. – Sa. 9:00–19:00 Uhr
+                    
                   </p>
                 </div>
               </div>
@@ -99,7 +98,7 @@ export const ContactSection = () => {
               </Button>
 
               <Button variant="goldOutline" size="xl" asChild>
-                <a href="tel:+4917629117689">Jetzt anrufen</a>
+                <a href="tel:015778423420">Jetzt anrufen</a>
               </Button>
             </div>
           </AnimateOnScroll>
@@ -109,7 +108,7 @@ export const ContactSection = () => {
             <div className="relative">
               <div className="aspect-square lg:aspect-[4/5] rounded-sm overflow-hidden border border-border">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5187.871688976504!2d11.069183276892435!3d49.44792955903806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479f57a835434d4d%3A0xfba938ebd99d6f67!2sTop%20Salon%20-%20N%C3%BCrnberg!5e0!3m2!1sde!2sde!4v1769505288553!5m2!1sde!2sde"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19881.15364104885!2d7.15784883476564!3d51.47386729240424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b8e1d35484ab15%3A0x5e237b44640be5eb!2sBarber%20Yusuf!5e0!3m2!1sde!2sde!4v1771694396065!5m2!1sde!2sde"
                   width="100%"
                   height="100%"
                   style={{ border: 0, filter: 'grayscale(100%) contrast(1.2)' }}
@@ -137,7 +136,6 @@ export const ContactSection = () => {
     </section>
   );
 };
-
 
 
 
